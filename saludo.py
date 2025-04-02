@@ -1,9 +1,4 @@
-class saludo():
-    def __init__(self, mensaje):
-        self.mensaje = mensaje
-
-    def saludar(self):
-        print(self.mensaje)
+from classSaludo import saludo
 
 saludo = saludo("Hola Mundo")
 saludo.saludar()
