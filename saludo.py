@@ -1,4 +1,5 @@
 from classSaludo import saludo
 
-saludo = saludo("Hola Mundo")
+nombre = input("Digite su nombre: ")
+saludo = saludo(f"Hola {nombre} como esta??")
 saludo.saludar()
